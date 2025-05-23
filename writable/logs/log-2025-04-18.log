@@ -1,0 +1,98 @@
+CRITICAL - 2025-04-18 02:16:01 --> ErrorException: Undefined variable $username
+[Method: GET, Route: tasks]
+in APPPATH\Views\tasks\index.php on line 9.
+ 1 APPPATH\Views\tasks\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tasks/index', [], true)
+ 5 APPPATH\Controllers\TaskController.php(30): view('tasks/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-18 02:16:02 --> ErrorException: Undefined variable $username
+[Method: GET, Route: tasks]
+in APPPATH\Views\tasks\index.php on line 9.
+ 1 APPPATH\Views\tasks\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tasks/index', [], true)
+ 5 APPPATH\Controllers\TaskController.php(30): view('tasks/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-18 02:16:03 --> ErrorException: Undefined variable $username
+[Method: GET, Route: tasks]
+in APPPATH\Views\tasks\index.php on line 9.
+ 1 APPPATH\Views\tasks\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tasks/index', [], true)
+ 5 APPPATH\Controllers\TaskController.php(30): view('tasks/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-18 02:16:03 --> ErrorException: Undefined variable $username
+[Method: GET, Route: tasks]
+in APPPATH\Views\tasks\index.php on line 9.
+ 1 APPPATH\Views\tasks\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tasks/index', [], true)
+ 5 APPPATH\Controllers\TaskController.php(30): view('tasks/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-18 08:42:29 --> ErrorException: Undefined variable $due
+[Method: GET, Route: tasks]
+in APPPATH\Views\tasks\index.php on line 28.
+ 1 APPPATH\Views\tasks\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $due', 'C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tasks/index', [], true)
+ 5 APPPATH\Controllers\TaskController.php(30): view('tasks/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-18 08:42:31 --> ErrorException: Undefined variable $due
+[Method: GET, Route: tasks]
+in APPPATH\Views\tasks\index.php on line 28.
+ 1 APPPATH\Views\tasks\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $due', 'C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tasks/index', [], true)
+ 5 APPPATH\Controllers\TaskController.php(30): view('tasks/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-18 08:42:35 --> ErrorException: Undefined variable $due
+[Method: GET, Route: tasks]
+in APPPATH\Views\tasks\index.php on line 28.
+ 1 APPPATH\Views\tasks\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $due', 'C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\TA1\\app\\Views\\tasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tasks/index', [], true)
+ 5 APPPATH\Controllers\TaskController.php(30): view('tasks/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
