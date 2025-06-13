@@ -1,60 +1,42 @@
-# CodeIgniter 4 Framework
+# Terminal Assessment 2 – Task Management System (CodeIgniter 4)
 
-## What is CodeIgniter?
+## Project Overview
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+This is a web-based **Employee Task Management System** developed for **IT Elective 1 – Web Development Using CodeIgniter**.  
+It is the continuation of Terminal Assessment 1 (repository: `ta1`) and includes enhanced features such as:
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- User registration and login with session handling
+- Secure RESTful API endpoints
+- File upload functionality with validation
+- CSRF protection, input validation, and data sanitization
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+---
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## Features
 
-## Important Change with index.php
+### ✅ Authentication
+- Users can register and log in
+- Session-based access control
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+### ✅ Task Management
+- Authenticated users can:
+  - Create tasks
+  - View task list
+  - Update task details
+  - Delete tasks
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+### ✅ RESTful API
+- `GET /api/tasks` – List all tasks
+- `POST /api/tasks` – Create new task
+- `PUT /api/tasks/{id}` – Update a task
+- `DELETE /api/tasks/{id}` – Delete a task  
+(API endpoints require user authentication)
 
-**Please** read the user guide for a better explanation of how CI4 works!
+### ✅ File Upload
+- Users can upload a file (image or document) for a task
+- File size and type validation (e.g., PNG, JPG, PDF)
+- Files stored securely and linked to the related task
 
-## Repository Management
+---
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+## Setup Instructions
